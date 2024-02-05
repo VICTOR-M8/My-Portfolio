@@ -1,10 +1,11 @@
 import Container from "../components/Container/Container"
-import Navbar from "../components/navbar/Navbar"
+import ContainerCard from "../components/ContainerCard/ContainerCard"
 const Home = () => {
     return (
         <> 
-            <Navbar/>
+            <ContainerCard />
             <Container/>
+            
         </>
 
         

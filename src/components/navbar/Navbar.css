@@ -1,0 +1,43 @@
+.navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:none;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    border-color:none;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+    
+}
+
+.nav-link.active {
+    font-weight: bold;
+    
+}
+
+.nav-link.disabled {
+    color: gray;
+    
+}
