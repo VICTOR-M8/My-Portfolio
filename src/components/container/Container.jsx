@@ -1,12 +1,12 @@
 import "../container/Container.css"
+import video from "../../assets/img/video1.mp4"
 const Container = () => {
     return (
-        <div>
-            
-        <h1 className="title">My portfolio</h1>
-
-    </div>
+        <div className="video-background">
+            <video src={video} autoPlay muted loop />
+        </div>
     )
+
 }
 
 export default Container
